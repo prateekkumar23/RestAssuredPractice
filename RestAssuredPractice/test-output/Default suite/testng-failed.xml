@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restfulApiDemo.CreateRecordWithRequestAndResponseSpecification">
+      <class name="restfulApiDemo.MultipleRecordCreation">
         <methods>
-          <include name="setupResponseSpec"/>
-          <include name="createGameRecord"/>
-          <include name="setupResquestSpec"/>
+          <include name="updateBooking"/>
+          <include name="setupRequestSpec"/>
         </methods>
-      </class> <!-- restfulApiDemo.CreateRecordWithRequestAndResponseSpecification -->
+      </class> <!-- restfulApiDemo.MultipleRecordCreation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
