@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restfulApiDemo.MultipleRecordCreation">
+      <class name="restfulApiDemo.DefaultHeaderBehaviour">
         <methods>
-          <include name="updateBooking"/>
-          <include name="setupRequestSpec"/>
+          <include name="defaultBehaviour"/>
+          <include name="overwriteHeaderValue"/>
         </methods>
-      </class> <!-- restfulApiDemo.MultipleRecordCreation -->
+      </class> <!-- restfulApiDemo.DefaultHeaderBehaviour -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
